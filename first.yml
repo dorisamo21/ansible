@@ -1,0 +1,10 @@
+---
+
+  - hosts: localhost
+    gather_facts: false
+    tasks:
+            - name: Print Dummy Files
+              debug:
+                      msg: 
+                        - "Dummy File List"
+                        - ['file1','file2','file3']
