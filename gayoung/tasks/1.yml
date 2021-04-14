@@ -1,0 +1,9 @@
+---
+# tasks file for gayoung
+- name: Print File Lists
+  debug:
+    msg: 
+      - "This is Fake File List"
+      - ['/home/vratest/fake_old_file.txt','/home/vratest/fake_old_file2.txt'] 
+
+

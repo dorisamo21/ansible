@@ -1,0 +1,5 @@
+---
+# tasks file for gayoung
+- name: Role {{ role_action }}
+  include_tasks: "{{role_action}}.yml"
+
